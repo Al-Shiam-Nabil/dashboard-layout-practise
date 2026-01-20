@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* 1. Register the Regular version */
+@font-face {
+  font-family: "MyBrandFont"; /* You choose this name */
+  src: url("./assets/fonts/poppins.regular.ttf") format("truetype");
+  font-weight: 400; /* Normal weight */
+  font-style: normal;
+  font-display: swap; /* Good for performance */
+}
+
+body {
+  font-family: "MyBrandFont", sans-serif;
+  background-color: #eef1f9;
+}
