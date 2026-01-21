@@ -32,7 +32,7 @@ export default function DashboardLayout() {
 
       {isMobile ? (
         <div
-          className={`h-20 bg-white flex items-center px-10 fixed top-0 right-0 w-full left-0 `}
+          className={`h-20 bg-white dark:bg-gray-800 flex items-center px-10 fixed top-0 right-0 w-full left-0 `}
         >
           <Header />
         </div>
