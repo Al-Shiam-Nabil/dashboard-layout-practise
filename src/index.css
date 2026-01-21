@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 /* 1. Register the Regular version */
 @font-face {
   font-family: "MyBrandFont"; /* You choose this name */
@@ -7,6 +9,12 @@
   font-weight: 400; /* Normal weight */
   font-style: normal;
   font-display: swap; /* Good for performance */
+}
+
+@layer {
+  .sidebar-scroll::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 body {
